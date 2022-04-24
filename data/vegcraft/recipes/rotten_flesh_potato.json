@@ -2,13 +2,16 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "minecraft:green_dye"
+            "item": "minecraft:coal",
+            "data": 1
         },
         {
-            "item": "minecraft:black_dye"
+            "item": "minecraft:dye",
+            "data": 1
         },
         {
-            "item": "minecraft:red_dye"
+            "item": "minecraft:dye",
+             "data": 2
         },
         {
             "item": "minecraft:poisonous_potato"
