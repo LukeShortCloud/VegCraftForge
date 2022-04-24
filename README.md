@@ -6,7 +6,6 @@ Here's the complete set of recipes, as of v0.2-pre:
 
 Item | Recipe | Description
 ---- | ------ | ----------
-Black Dye | ![Stonecutter: Charcoal -> 2 black dye](https://raw.githubusercontent.com/ACascarino/vegcraft/master/img/black_dye.png) | Original black dye recipe used ink sacs - in making them redundant have specified that stonecutting charcoal into powder makes black dye
 Book and Quill | ![Crafting table: shapeless: book, stick, black dye -> book and quill](https://raw.githubusercontent.com/ACascarino/vegcraft/master/img/book_and_quill.png) | Original book and quill recipe used feathers and ink sac; substituted a stick and black dye for a "pen" theme
 Blaze Powder | ![Crafting table: top row: glowstone dust, gold nugget, glowstone dust; middle row: nether wart, gunpowder, nether wart; bottom row: glowstone dust, gold nugget, glowstone dust -> blaze powder](https://raw.githubusercontent.com/ACascarino/vegcraft/master/img/blaze_powder.png) | Original blaze powder is produced from blaze rods, a drop from Blazes - went with a "firey gold powder" theme
 Blaze Rod | ![Crafting table: top row: -, gold nugget, -; middle row: blaze powder, stick, blaze powder; bottom row: -, gold nugget, - -> blaze rod](https://raw.githubusercontent.com/ACascarino/vegcraft/master/img/blaze_rod.png) | Original blaze rods are a drop from Blazes - flipped production so powder is now produced first and rods are constituted from powder.
