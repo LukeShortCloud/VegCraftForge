@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "###",
-        "SHS",
+        "SAS",
         "WWW"
     ],
     "key": {
@@ -12,8 +12,8 @@
         "S": {
             "item": "minecraft:sugar"
         },
-        "H": {
-            "item": "minecraft:honey_bottle"
+        "A": {
+            "item": "minecraft:apple"
         },
         "W": {
             "item": "minecraft:wheat"
