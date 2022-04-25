@@ -10,7 +10,8 @@
             "item": "minecraft:quartz"
         },
         "C": {
-            "item": "minecraft:cyan_dye"
+            "item": "minecraft:dye",
+            "data": 6
         },
         "E": {
             "item": "minecraft:experience_bottle"
