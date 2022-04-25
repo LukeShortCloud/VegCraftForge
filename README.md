@@ -2,6 +2,53 @@
 
 A Forge mod for Minecraft 1.12.2 that adds vegan crafting recipes for vanilla Minecraft items. This is based on the data pack [VegCraft](https://github.com/ACascarino/vegcraft) created by [ACascarino](https://github.com/ACascarino). For newer versions of Minecraft, use the original data pack.
 
+## Installation
+
+VegCraftForge currently does not have a mod JAR file that can be used for installation. It is planned to ship this project as a standalone mod one day.
+
+Instead, we rely on modifying the [Uncrafted](https://www.curseforge.com/minecraft/mc-mods/uncrafted) mod. It has great synergy with our mod by providing recipes for vanilla items that normally do not exist. They also support and encourage users to add their own custom recipes.
+
+- [Download](https://www.curseforge.com/minecraft/mc-mods/uncrafted/files/2477473) Uncrafted for Minecraft 1.12.2.
+- Create a temporary working directory.
+
+    ```
+    mkdir /tmp/vegcraft_build/
+    cd /tmp/vegcraft_build/
+    ```
+
+- Copy Uncrafted to it and extract it.
+
+    ```
+    cp ${HOME}/Downloads/Uncrafted+1.12++\(v.3.0.1\).jar ./
+    unzip Uncrafted+1.12++\(v.3.0.1\).jar
+    ```
+
+- Download VegCraftForge.
+
+    ```
+    git clone https://github.com/lukeshortcloud/vegcraftforge.git
+    ```
+
+- Copy the recipes over.
+
+    ```
+    cp -r vegcraftforge/data/vegcraft/recipes/*.json assets/uncrafted/recipes/
+    ```
+
+- Delete the Uncrafted JAR file and the VegCraftForge files before creating a new JAR.
+
+    ```
+    rm -r -f Uncrafted*.jar vegcraftforge
+    ```
+
+- Create a new JAR file to use.
+
+    ```
+    zip -r Uncrafted+1.12++\(v.3.0.1\)-VegCraftForge.jar ./
+    ```
+
+- Place that file in the "mods" folder of the server.
+
 ## Recipes
 
 Item | Recipe | Description
