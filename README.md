@@ -1,8 +1,8 @@
-# VegCraft
+# VegCraftForge
 
-A Minecraft datapack for the creation of purely vegan recipes!
-All original recipes remain in the game - these are simply in addition.
-Here's the complete set of recipes, as of v0.2-pre:
+A Forge mod for Minecraft 1.12.2 that adds vegan crafting recipes for vanilla Minecraft items. This is based on the data pack [VegCraft](https://github.com/ACascarino/vegcraft) created by [ACascarino](https://github.com/ACascarino). For newer versions of Minecraft, use the original data pack.
+
+## Recipes
 
 Item | Recipe | Description
 ---- | ------ | ----------
