@@ -8,10 +8,12 @@
             "item": "minecraft:sugar"
         },
         {
-            "item": "minecraft:coal"
+            "item": "minecraft:coal",
+            "data": 1
         },
         {
-            "item": "minecraft:bone_meal"
+            "item": "minecraft:dye",
+            "data": 15
         }
     ],
     "result": {
