@@ -1,9 +1,22 @@
 {
-    "type": "minecraft:smoking",
-    "ingredient": {
-        "item": "minecraft:chorus_fruit"
-    },
-    "result": "minecraft:ender_pearl",
-    "experience": 2,
-    "cookingtime": 600
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:chorus_fruit"
+        },
+        {
+            "item": "minecraft:dye",
+            "data": 6
+        },
+        {
+            "item": "minecraft:glass_pane"
+        },
+        {
+            "item": "minecraft:gunpowder"
+        }
+    ],
+    "result": {
+        "item": "minecraft:ender_pearl",
+        "count": 3
+    }
 }
